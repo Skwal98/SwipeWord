@@ -1,0 +1,14 @@
+:host{
+    display: block;
+    width: 320px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    user-select: none;
+    /*transition: all 0.2s ease 0s;*/
+    cursor: pointer;
+}
+
+div {
+    padding: 50px;
+}

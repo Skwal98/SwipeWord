@@ -1,0 +1,23 @@
+
+  app-card {
+      position: relative;
+      z-index: 10;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      transition: all 0.3s ease-in-out;
+  }
+
+  app-card:not(:nth-child(1)) {
+    position: absolute;
+  }
+
+  app-card:nth-of-type(2) {
+      top: 0;
+      transform: scale(0.95) translateY(-22px);
+      z-index: 9;
+  }
+
+  app-card:nth-of-type(3) {
+      top: 0px;
+      transform: scale(0.90) translateY(-44px);
+      z-index: 8;
+  }
